@@ -1,0 +1,22 @@
+<html><title>Droozle - Αυτό ή Εκείνο?</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="description" content="Droozle is a trivia game in which user has to choose between two different answers">
+<meta name="keywords" content="droozle, or game, the or game, conjuction, questions, answers, or questions, trivia games, mobile apps, android games, android development">
+<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no, user-scalable=0"/>
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" href="droozle.ico" type="image/x-icon" />
+<head>
+<script src="jquery/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="javascript/loadXML.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body bgcolor="black"><center><br><br><img src="YVVvko.png">
+<div style="float:center;">
+<textarea type="text" id="description" style="background-color:white;" disabled></textarea></div>
+<button onClick="reply_click(this.innerHTML,document.getElementById('questions').value)" type="button" id="choiceA"></button><br><button style='margin-top:1.2vh;' onClick="reply_click(this.innerHTML,document.getElementById('questions').value)" type="button" id="choiceB"></button>
+<input type='text' id='score' value="0.00000" style="width:90%; background: #fff;" disabled/>
+<input type='hidden' name='questions' id='questions' value='0'><br><br><br>
+</center>
+</body>
+
+</html>
